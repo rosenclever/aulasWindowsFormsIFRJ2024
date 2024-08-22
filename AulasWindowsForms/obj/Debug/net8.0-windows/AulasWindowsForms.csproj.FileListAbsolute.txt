@@ -1,0 +1,17 @@
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.FrmRestoDivisao.resources
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.csproj.GenerateResource.cache
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.AssemblyInfoInputs.cache
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.AssemblyInfo.cs
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.csproj.CoreCompileInputs.cache
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.sourcelink.json
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\bin\Debug\net8.0-windows\AulasWindowsForms.exe
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\bin\Debug\net8.0-windows\AulasWindowsForms.deps.json
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\bin\Debug\net8.0-windows\AulasWindowsForms.runtimeconfig.json
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\bin\Debug\net8.0-windows\AulasWindowsForms.dll
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\bin\Debug\net8.0-windows\AulasWindowsForms.pdb
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.dll
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\refint\AulasWindowsForms.dll
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.pdb
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\AulasWindowsForms.genruntimeconfig.cache
+E:\rosen\LTP2\AplicacoesWindowsForms\AulasWindowsForms\obj\Debug\net8.0-windows\ref\AulasWindowsForms.dll
