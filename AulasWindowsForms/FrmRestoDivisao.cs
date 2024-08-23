@@ -16,5 +16,25 @@ namespace AulasWindowsForms
         {
             InitializeComponent();
         }
+
+        private void BtnRestoDaDivisao_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int dividendo = Convert.ToInt32(TxtDividendo.Text);
+                int divisor = Convert.ToInt32(TxtDivisor.Text);
+                int resto = dividendo % divisor;
+                TxtResto.Text = resto.ToString();
+            }
+            catch(FormatException exc)
+            { 
+                MessageBox.Show("Entrada de dados inválida!", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error );
+            }
+            catch(DivideByZeroException exc )
+            {
+                MessageBox.Show("Não é possível realizar divisão por zero", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
+        }
     }
 }

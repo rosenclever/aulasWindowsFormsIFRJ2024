@@ -51,7 +51,7 @@
             TxtDividendo.Location = new Point(114, 22);
             TxtDividendo.Name = "TxtDividendo";
             TxtDividendo.Size = new Size(100, 23);
-            TxtDividendo.TabIndex = 1;
+            TxtDividendo.TabIndex = 0;
             // 
             // LblDivisor
             // 
@@ -67,16 +67,17 @@
             TxtDivisor.Location = new Point(288, 22);
             TxtDivisor.Name = "TxtDivisor";
             TxtDivisor.Size = new Size(100, 23);
-            TxtDivisor.TabIndex = 3;
+            TxtDivisor.TabIndex = 1;
             // 
             // BtnRestoDaDivisao
             // 
             BtnRestoDaDivisao.Location = new Point(44, 67);
             BtnRestoDaDivisao.Name = "BtnRestoDaDivisao";
             BtnRestoDaDivisao.Size = new Size(170, 23);
-            BtnRestoDaDivisao.TabIndex = 4;
+            BtnRestoDaDivisao.TabIndex = 2;
             BtnRestoDaDivisao.Text = "Resto da Divisão";
             BtnRestoDaDivisao.UseVisualStyleBackColor = true;
+            BtnRestoDaDivisao.Click += BtnRestoDaDivisao_Click;
             // 
             // LblResto
             // 
@@ -89,10 +90,13 @@
             // 
             // TxtResto
             // 
+            TxtResto.Enabled = false;
             TxtResto.Location = new Point(288, 64);
             TxtResto.Name = "TxtResto";
+            TxtResto.ReadOnly = true;
             TxtResto.Size = new Size(100, 23);
             TxtResto.TabIndex = 6;
+            TxtResto.TabStop = false;
             // 
             // FrmRestoDivisao
             // 
@@ -106,8 +110,10 @@
             Controls.Add(LblDivisor);
             Controls.Add(TxtDividendo);
             Controls.Add(LblDividendo);
+            MaximizeBox = false;
             Name = "FrmRestoDivisao";
-            Text = "FrmRestoDivisao";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Resto da Divisão";
             ResumeLayout(false);
             PerformLayout();
         }
