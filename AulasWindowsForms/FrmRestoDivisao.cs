@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AulasWindowsForms.Utilitario;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,7 +24,8 @@ namespace AulasWindowsForms
             {
                 int dividendo = Convert.ToInt32(TxtDividendo.Text);
                 int divisor = Convert.ToInt32(TxtDivisor.Text);
-                int resto = dividendo % divisor;
+                Calculadora calc = new Calculadora();
+                int resto = calc.RestoDivisao(dividendo, divisor);
                 TxtResto.Text = resto.ToString();
             }
             catch(FormatException exc)
